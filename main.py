@@ -37,6 +37,5 @@ if __name__ == "__main__":
     password_length = ask_pass_length()
     generated_password = generate_password(password_length)
     password_final_strength = password_strength(generated_password)
-
-print(generated_password)
-print(f"Generated password's strength level is: {password_final_strength}")
+    print(generated_password)
+    print(f"Generated password's strength level is: {password_final_strength}")
